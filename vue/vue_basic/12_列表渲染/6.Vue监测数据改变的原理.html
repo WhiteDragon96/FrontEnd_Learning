@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>基本列表</title>
+    <script type="text/javascript" src="../js/vue.js"></script>
+</head>
+
+<body>
+
+    <div id="root">
+        <h2>学校名称：{{name}}</h2>
+        <h2>学校地址：{{adress}}</h2>
+    </div>
+
+    <script type="text/javascript">
+        Vue.config.productionTip = false
+        const vm = new Vue({
+            el: '#root',
+            data: {
+                name: '零纳贝尔',
+                adress: '上海'
+            },
+            methods: {
+
+            },
+        })
+    </script>
+</body>
+
+</html>

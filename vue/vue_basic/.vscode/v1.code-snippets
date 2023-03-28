@@ -1,0 +1,11 @@
+{
+	Vue.config.productionTip = false
+	// 创建实例
+	new Vue({
+		el: '#root',
+		data: {
+			name: '迪丽热巴',
+			age: 18
+		}
+	})
+}
